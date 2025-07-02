@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DITXA NOKOS LIST - List Nomor Kosong</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="logo">DITXA NOKOS LIST</div>
+            <div class="subtitle">List Nomor Kosong / Nokos Terlengkap</div>
+        </header>
+        
+        <div class="note-box">
+            <div class="note-title">
+                <i class="fas fa-info-circle"></i>
+                Informasi Penting:
+            </div>
+            <ul class="note-list">
+                <li>FREE TUTOR SAVE NOKOS</li>
+                <li>KODE HANYA 1X VERIF DALAM WAKTU 20MENIT</li>
+                <li>HARGA BISA BERUBAH SETIAP MEMBELI</li>
+                <li>NOKOS TERGANTUNG STOCK KALO ADA</li>
+                <li>KALO NOKOS KENON,TAPI NOKOS UDAH DI BUYER JANGAN SALAH KAN ADMIN</li>
+                <li>DITX JUGA MENYEDIAKAN PRODUK LAINNYA TANYAKAN SAJA</li>
+            </ul>
+        </div>
+        
+        <div class="country-list">
+            <div class="sort-container">
+                <span class="sort-label"><i class="fas fa-sort"></i> Filter:</span>
+                <select class="sort-select" id="sortOption">
+                    <option value="default"> Default</option>
+                    <option value="price-high">Harga Tertinggi ke Terendah</option>
+                    <option value="price-low">Harga Terendah ke Tertinggi</option>
+                    <option value="name-az">Nama Negara (A-Z)</option>
+                    <option value="name-za">Nama Negara (Z-A)</option>
+                </select>
+            </div>
+            
+            <div class="country-header">
+                <div>Negara</div>
+                <div>Harga</div>
+            </div>
+            
+            <div class="country-rows" id="countryRows">
+                <!-- Data negara akan diisi oleh JavaScript -->
+            </div>
+        </div>
+        
+        <div class="payment-section">
+            <h2 class="section-title">Metode Pembayaran</h2>
+            <p>Pilih metode pembayaran yang tersedia:</p>
+            
+            <div class="payment-buttons">
+                <button class="payment-btn dana-btn">
+                    <i class="fas fa-wallet"></i> Dana
+                </button>
+                
+                <button class="payment-btn gopay-btn">
+                    <i class="fab fa-google-pay"></i> Gopay
+                </button>
+                
+                <button class="payment-btn qris-btn">
+                    <i class="fas fa-qrcode"></i> QRIS
+                </button>
+            </div>
+        </div>
+        
+        <div class="owner-section">
+            <a href="https://t.me/ditxstur" target="_blank" class="owner-btn">
+                <i class="fab fa-telegram"></i> Hubungi Owner (t.me/ditxstur)
+            </a>
+        </div>
+        
+        <div class="contact-section">
+            <a href="#" class="contact-btn">
+                <i class="fab fa-whatsapp"></i> WhatsApp
+            </a>
+            
+            <a href="https://t.me/Maoduitduitduitduit" target="_blank" class="contact-btn">
+                <i class="fab fa-telegram"></i> Testimoni Ditx
+            </a>
+        </div>
+        
+        <footer>
+            <p>&copy; 2025 DITXA NOKOS LIST - List Nomor Kosong</p>
+            <p>list.ditxa-nokos.com</p>
+        </footer>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
